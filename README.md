@@ -14,6 +14,10 @@ DeepContrib 将公开 GitHub 仓库中的 Issue 转成可审查的代码贡献�
 
 目前只接受公开 github.com 仓库，单次执行一个任务。完整测试流程需要目标仓库适配提供的 Python / pytest 镜像；不会自动安装任意项目依赖。截图与原生多模态输入尚未实现。发布面向 main 分支的简单工作流，不应视为支持任意项目的通用自动修复服务。请在本机使用，当前没有多用户认证。
 
+## 视频演示
+
+https://github.com/user-attachments/assets/cb022d67-752e-4bdf-b9b2-c16b65184254
+
 ## 环境准备（Windows / PowerShell）
 
 安装 Git、GitHub CLI（gh）、uv、Node.js 22 或更高版本、Docker Desktop，并启动 Docker 的 Linux 容器引擎。确保 3000、8000、5432 端口可用。
