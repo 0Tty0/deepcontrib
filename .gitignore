@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+data/
+backend/data/
+.deepcontrib/
+frontend/.next/
+frontend/node_modules/
+frontend/playwright-report/
+frontend/test-results/
+frontend/tsconfig.tsbuildinfo
+
+# Local planning and demonstration files
+plans/
+deepcontrib-agent-test/
+*.mp4
+*.log
+.env.*
+!.env.example
